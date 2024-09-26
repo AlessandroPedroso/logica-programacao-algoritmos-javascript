@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    /*
+        Elaborar um programa que leia 2 notas de um aluno em uma disciplina.
+        Calcule e informe a média das notas.
+        Exemplo:
+        1a Nota: 7.0
+        2a Nota: 8.0
+        Média: 7.5
+    */
+
+    //ENTRADA DOS DADOS
+    //lê as informações dos dados
+    let nota1 = Number(prompt("1º Nota: "));
+    let nota2 = Number(prompt("2º Nota: "));
+
+    //PROCESSAMENTO
+    //realiza o calculo da nota
+    let media = (nota1 + nota2) / 2;
+
+    //SAÍDA DOS DADOS
+    //exibe o resultado dos dados
+    alert("1a Nota: " + nota1.toFixed(1) + "\n 2a Nota: " + nota2.toFixed(1) + "\nMédia: " + media.toFixed(1));
+</script>
+
+</html>
